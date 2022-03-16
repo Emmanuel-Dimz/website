@@ -254,6 +254,7 @@ button:hover::before,
 .header {
   position: relative;
   z-index: 1;
+  background-color: #012611;
 }
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
@@ -275,13 +276,13 @@ button:hover::before,
 }
 .header nav {
   position: relative;
-  background-color: white;
+  background-color: #012611;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
 }
 .header__logo img {
-  width: 8.8125rem;
-  height: 1.375rem;
+  width: 15.8125rem;
+  height: 7.575rem;
 }
 .header__toggle > span {
   display: block;
@@ -332,15 +333,16 @@ button:hover::before,
   transition: opacity 300ms ease-in-out;
 }
 .header__links a:hover {
-  color: #2d314d;
+  color: white;
 }
 .header__links a:hover::before {
   opacity: 1;
 }
 
 .hero {
-  background-color: #fafafa;
+  background-color: #008F4C;
 }
+
 @media (min-width: 64em) {
   .hero .container {
     display: flex;
@@ -349,7 +351,7 @@ button:hover::before,
 }
 .hero__image {
   position: relative;
-  background-image: url("/images/bg-intro-mobile.svg");
+  background-image: url("/images/girl\ child.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -374,11 +376,11 @@ button:hover::before,
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url("");
+    background-image: url("/images/girl\ child.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 150%;
-    background-size: 122%;
+    background-size: cover;
     background-position: 0% 83%;
   }
 }
@@ -387,7 +389,7 @@ button:hover::before,
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/");
+  background-image: url("/images/image-mockups.png");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -418,7 +420,7 @@ button:hover::before,
 }
 
 .feature {
-  background-color: #f3f4f6;
+  background-color: #055EB7;
   text-align: center;
 }
 @media (min-width: 40em) {
@@ -455,6 +457,8 @@ button:hover::before,
 }
 .feature__icon {
   margin-bottom: 1.875rem;
+  width: 90px;
+  height: auto;
 }
 @media (min-width: 64em) {
   .feature__icon {
@@ -480,7 +484,7 @@ button:hover::before,
 }
 
 .articles {
-  background-color: #fafafa;
+  background-color: #edefe7;
 }
 
 .article__grid {
@@ -538,7 +542,7 @@ button:hover::before,
 }
 
 .footer {
-  background-color: #2d314d;
+  background-color: #012611;
   color: white;
   padding: 2.5rem;
   text-align: center;

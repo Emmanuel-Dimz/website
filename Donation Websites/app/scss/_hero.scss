@@ -8,10 +8,10 @@
       align-items: center;
     }
   }
-
+//Mobile View
   &__image {
     position: relative;
-    background-image: url('/images/kids.jpg');
+    background-image: url('/images/girl\ child.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -31,21 +31,22 @@
       //background-position: left center;
     }
 
-    &::before, &::after {
+    //&::before, &::after {
       //border: 1px solid magenta;
-    }
+    //}
 
+    //Desktop View
     &::before { 
 
       @include breakpoint-up(large){
         content: "";
         position: absolute;
         height: 100%;
-        background-image: url('/images/kids.jpg');        
+        background-image: url('/images/girl\ child.jpg');        
         background-repeat: no-repeat;
         background-position: center bottom;
         width: 150%;
-        background-size: 122%;
+        background-size: cover;
         background-position: 0% 83%;
       }
     }
@@ -55,7 +56,7 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      background-image: url('/images/image-mockups.png');
+      background-image: url('');
       background-size: 93%;
       background-repeat: no-repeat;
       background-position: center bottom;
